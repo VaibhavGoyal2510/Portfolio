@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Portfolio Website , updated Version",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "dev":"nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,5 +15,12 @@
     "radhe"
   ],
   "author": "Vaibhav",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
